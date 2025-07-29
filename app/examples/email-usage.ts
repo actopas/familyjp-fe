@@ -23,24 +23,24 @@ export async function emailUsageExample() {
         <li>Upcoming events</li>
       </ul>
     `,
-    featuredImage: 'https://yourdomain.com/images/newsletter-header.jpg'
+    featuredImage: 'https://family-jp.info/images/newsletter-header.jpg'
   });
 
   // 示例3: 发送产品公告
   await emailService.sendProductAnnouncement('user@example.com', {
     name: 'Premium Widget Pro',
     description: 'Our latest premium widget with advanced features and improved performance.',
-    link: 'https://yourdomain.com/products/premium-widget-pro',
-    image: 'https://yourdomain.com/images/premium-widget-pro.jpg'
+    link: 'https://family-jp.info/products/premium-widget-pro',
+    image: 'https://family-jp.info/images/premium-widget-pro.jpg'
   });
 
   // 示例4: 发送促销邮件
   await emailService.sendPromotionalEmail('user@example.com', {
     title: 'Holiday Sale - 50% Off Everything!',
-    description: 'Don't miss our biggest sale of the year. Get 50% off all products!',
+    description: "Don't miss our biggest sale of the year. Get 50% off all products!",
     discountCode: 'HOLIDAY50',
     expiryDate: 'December 31, 2024',
-    link: 'https://yourdomain.com/sale'
+    link: 'https://family-jp.info/sale'
   });
 }
 
